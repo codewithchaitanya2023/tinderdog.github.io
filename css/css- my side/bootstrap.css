@@ -1,0 +1,164 @@
+body {
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2 {
+  font-family: "montserrat", sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+/* navigation bar*/
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubantu", sans-serif;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.downlaod-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+
+.title-image {
+  width: 15%;
+  right: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.nav-item :hover {
+  background-color: rgb(194, 18, 27);
+  border-radius: 100%;
+}
+
+/* feacher section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feacher-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.sign {
+  padding: 7%;
+  color: #ff4c68;
+}
+
+.sign:hover {
+  color: red;
+}
+
+/*testimonials*/
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+/*press section*/
+#press {
+  background-color: #e08fb3;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo {
+  width: 15%;
+  padding: 30px 20px 40px;
+}
+
+/* pricing*/
+#pricing {
+  text-align: center;
+  padding: 5%;
+  color: #fff;
+  background-color: #ff4c68;
+}
+#pricing p {
+  color: #fff;
+}
+#pricing .button:hover {
+  background-color: blue;
+}
+
+/*Call to Action*/
+#cta {
+  text-align: center;
+  padding: 5%;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+/*footer*/
+#footer {
+  text-align: center;
+  padding: 5%;
+  color: #fff;
+  background-color: #ff4c68;
+}
+#footer p {
+  color: #fff;
+}
+#footer p :hover {
+  background-color: blue;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    padding: 7px;
+  }
+}

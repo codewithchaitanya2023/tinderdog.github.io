@@ -1,0 +1,158 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*navigation bar/*/
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+
+#logo {
+  margin-top: 10px 34px;
+}
+
+#logo img {
+  height: 56px;
+  margin: 3px 6px;
+  border-radius: 50%;
+}
+/*#navbar {
+  position: relative;
+}*/
+
+#navbar ul {
+  display: flex;
+  font-family: "baloo bhai", cursive;
+}
+#navbar::before {
+  content: "";
+  background-color: black;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+#navbar ul li {
+  /*color: white;*/
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: blue;
+}
+/* home section*/
+#Home {
+  background: url("../css/images/meal.img") no-repeat center center/cover;
+
+  display: flex;
+  flex-direction: column;
+  height: 525px;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+#Home::before {
+  content: "";
+  top: 0px;
+  left: 0px;
+
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  z-index: -2;
+  opacity: 0.89;
+}
+#Home h1 {
+  font-family: "Bree serif", serif;
+  color: white;
+  text-align: center;
+}
+#Home p {
+  font-family: "Bree serif", serif;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+/*uitlity calss*/
+
+.h-primary {
+  font-family: "Bree serif", serif;
+  font-size: 2.8rem;
+  padding: 12px;
+}
+
+.h-secondary {
+  font-size: 1.5rem;
+  padding: 12px;
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#Home .btn:hover {
+  background-color: blue;
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+/*sservises*/
+
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid brown;
+  margin: 3px 6px;
+  padding: 34px;
+  border-radius: 23px;
+  background-color: #e2f4f4;
+}
+#services .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+/*client sectiom*/
+#clients-section {
+  height: 344px;
+}
+#clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clients img {
+  height: 124px;
+}
+.client-item {
+  padding: 30px;
+}

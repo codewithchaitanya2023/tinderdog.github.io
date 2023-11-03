@@ -1,0 +1,31 @@
+.red {
+  background-color: red;
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+}
+.green {
+  background-color: green;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+}
+.orange {
+  background-color: orangered;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  display: inline-block;
+}
+.white {
+  background-color: wheat;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+}
+.sky {
+  background-color: skyblue;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+}
